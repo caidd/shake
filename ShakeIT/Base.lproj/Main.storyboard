@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="YeD-aQ-2pk">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ShakeIT" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Ztf-XB-3Cp">
+                                <rect key="frame" x="20" y="14" width="560" height="448"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HNt-dU-rdq">
+                                        <rect key="frame" x="259" y="0.0" width="42" height="42"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="180" placeholderIntrinsicHeight="30" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iT8-bT-vsU">
+                                        <rect key="frame" x="190" y="62" width="180" height="30"/>
+                                        <animations/>
+                                        <state key="normal" title="dog">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="dogButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RJ1-wt-SlL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="180" placeholderIntrinsicHeight="30" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v0N-At-BpX">
+                                        <rect key="frame" x="190" y="112" width="180" height="30"/>
+                                        <animations/>
+                                        <state key="normal" title="donkey">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="donkeyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gti-D9-ynR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="180" placeholderIntrinsicHeight="30" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mdc-pe-BGB">
+                                        <rect key="frame" x="190" y="162" width="180" height="30"/>
+                                        <animations/>
+                                        <state key="normal" title="lion">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="lionButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iIM-iq-RZl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="180" placeholderIntrinsicHeight="30" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0nY-1a-ZnF">
+                                        <rect key="frame" x="190" y="212" width="180" height="30"/>
+                                        <animations/>
+                                        <state key="normal" title="pig">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="dogButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q7E-G6-K7b"/>
+                                            <action selector="pigButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pPl-yv-hCk"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="180" placeholderIntrinsicHeight="30" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uz6-tI-Plr">
+                                        <rect key="frame" x="190" y="262" width="180" height="30"/>
+                                        <animations/>
+                                        <state key="normal" title="wolf">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="wolfButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LxX-0M-Y8R"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zto-0Q-Fng">
+                                        <rect key="frame" x="271" y="312" width="19" height="36"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="380" placeholderIntrinsicHeight="30" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qtg-CG-nPQ">
+                                        <rect key="frame" x="90" y="368" width="380" height="30"/>
+                                        <animations/>
+                                        <state key="normal" title="Start"/>
+                                        <connections>
+                                            <action selector="StartGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tid-Kr-c6X"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o3X-DC-dzh">
+                                        <rect key="frame" x="261" y="418" width="39" height="30"/>
+                                        <animations/>
+                                        <state key="normal" title="Menu"/>
+                                        <connections>
+                                            <segue destination="YeD-aQ-2pk" kind="show" id="A27-fe-EjX"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                            </stackView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ztf-XB-3Cp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Elz-Ti-3me"/>
+                            <constraint firstItem="Ztf-XB-3Cp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Xro-Q8-VNi"/>
+                            <constraint firstItem="Ztf-XB-3Cp" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="cAq-Bd-hWg"/>
+                            <constraint firstItem="Ztf-XB-3Cp" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="nzJ-b0-fjZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ztf-XB-3Cp" secondAttribute="trailing" id="y5E-EJ-mcs"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="ScoreLabel" destination="Zto-0Q-Fng" id="GrH-RJ-r9c"/>
+                        <outlet property="StartButton" destination="qtg-CG-nPQ" id="zoh-49-meE"/>
+                        <outlet property="TimerLabel" destination="HNt-dU-rdq" id="0eL-3U-Qi0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="388" y="354"/>
+        </scene>
+        <!--Effects View Controller-->
+        <scene sceneID="Z3g-Pc-c7G">
+            <objects>
+                <viewController id="7Os-wP-MnS" customClass="EffectsViewController" customModule="ShakeIT" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pLc-Ve-iNY"/>
+                        <viewControllerLayoutGuide type="bottom" id="tku-Mk-CCq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zoD-U4-m0R">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="3x5-PN-SS3">
+                                <rect key="frame" x="20" y="80" width="560" height="390"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rM6-1o-UiI">
+                                        <rect key="frame" x="0.0" y="0.0" width="560" height="30"/>
+                                        <animations/>
+                                        <state key="normal" title="Magnum"/>
+                                        <connections>
+                                            <action selector="magnumSound:" destination="7Os-wP-MnS" eventType="touchUpInside" id="K1i-Bk-cma"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aaz-Sh-g0h">
+                                        <rect key="frame" x="0.0" y="90" width="560" height="30"/>
+                                        <animations/>
+                                        <state key="normal" title="Silencer"/>
+                                        <connections>
+                                            <action selector="silencerSound:" destination="7Os-wP-MnS" eventType="touchUpInside" id="zaF-yE-sr6"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jyF-cW-FJw">
+                                        <rect key="frame" x="0.0" y="180" width="560" height="30"/>
+                                        <animations/>
+                                        <state key="normal" title="Hadouken"/>
+                                        <connections>
+                                            <action selector="hadoukenSound:" destination="7Os-wP-MnS" eventType="touchUpInside" id="5TY-h9-e0m"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y0q-O9-QJK">
+                                        <rect key="frame" x="0.0" y="270" width="560" height="30"/>
+                                        <animations/>
+                                        <state key="normal" title="Marion Coin"/>
+                                        <connections>
+                                            <action selector="marioSound:" destination="7Os-wP-MnS" eventType="touchUpInside" id="b9Z-vM-be0"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rhn-cI-FfO">
+                                        <rect key="frame" x="0.0" y="360" width="560" height="30"/>
+                                        <animations/>
+                                        <state key="normal" title="Menu"/>
+                                        <connections>
+                                            <segue destination="YeD-aQ-2pk" kind="show" id="HbV-QL-Faf"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                            </stackView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="3x5-PN-SS3" secondAttribute="trailing" id="DYJ-4U-GdR"/>
+                            <constraint firstItem="3x5-PN-SS3" firstAttribute="leading" secondItem="zoD-U4-m0R" secondAttribute="leadingMargin" id="YGa-bn-S5J"/>
+                            <constraint firstItem="3x5-PN-SS3" firstAttribute="top" secondItem="pLc-Ve-iNY" secondAttribute="bottom" constant="60" id="nvy-xe-Yyu"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iLT-Bb-vGS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="400" y="1294"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="khE-u2-P3T">
+            <objects>
+                <viewController id="YeD-aQ-2pk" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="I5M-ff-TtJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="siU-JD-EFd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="P4D-zD-CiA">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" spacing="110" translatesAutoresizingMaskIntoConstraints="NO" id="RTU-Zu-fZk">
+                                <rect key="frame" x="20" y="113" width="560" height="310"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pBf-Di-wzy">
+                                        <rect key="frame" x="212" y="0.0" width="137" height="30"/>
+                                        <animations/>
+                                        <state key="normal" title="Shake what you can"/>
+                                        <connections>
+                                            <segue destination="BCh-PV-Mgh" kind="show" id="HgA-eI-xt4"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I3Q-kO-qjN">
+                                        <rect key="frame" x="229" y="140" width="102" height="30"/>
+                                        <animations/>
+                                        <state key="normal" title="Find the sound"/>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="af0-33-8Aa"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xkk-yy-xjI">
+                                        <rect key="frame" x="229" y="280" width="102" height="30"/>
+                                        <animations/>
+                                        <state key="normal" title="Special effects"/>
+                                        <connections>
+                                            <segue destination="7Os-wP-MnS" kind="show" id="sFU-qp-Adh"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                            </stackView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="RTU-Zu-fZk" secondAttribute="trailing" id="8md-qn-w00"/>
+                            <constraint firstItem="RTU-Zu-fZk" firstAttribute="top" secondItem="I5M-ff-TtJ" secondAttribute="bottom" constant="60" id="IBY-9i-620"/>
+                            <constraint firstItem="RTU-Zu-fZk" firstAttribute="leading" secondItem="P4D-zD-CiA" secondAttribute="leadingMargin" id="W1O-V9-Vvd"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="02S-kW-ibi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-304" y="354"/>
+        </scene>
+        <!--Shake Game View Controller-->
+        <scene sceneID="59X-wc-eKb">
+            <objects>
+                <viewController id="BCh-PV-Mgh" customClass="ShakeGameViewController" customModule="ShakeIT" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qi7-M2-KKT"/>
+                        <viewControllerLayoutGuide type="bottom" id="iKP-Di-9ng"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ef6-8N-QSR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="80" translatesAutoresizingMaskIntoConstraints="NO" id="hai-af-ZAI">
+                                <rect key="frame" x="20" y="46" width="560" height="393"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q5A-FR-LYP">
+                                        <rect key="frame" x="0.0" y="0.0" width="560" height="42"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qdt-6s-jMM">
+                                        <rect key="frame" x="0.0" y="122" width="560" height="48"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F6T-Hd-kb3">
+                                        <rect key="frame" x="0.0" y="250" width="560" height="33"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <state key="normal" title="Start"/>
+                                        <connections>
+                                            <action selector="StartGame:" destination="BCh-PV-Mgh" eventType="touchUpInside" id="C3h-pd-vax"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kj9-C5-4UW">
+                                        <rect key="frame" x="0.0" y="363" width="560" height="30"/>
+                                        <animations/>
+                                        <state key="normal" title="Menu"/>
+                                        <connections>
+                                            <segue destination="YeD-aQ-2pk" kind="show" id="daG-e5-gjb"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                            </stackView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="hai-af-ZAI" secondAttribute="trailing" id="X8r-G9-teC"/>
+                            <constraint firstItem="hai-af-ZAI" firstAttribute="top" secondItem="qi7-M2-KKT" secondAttribute="bottom" constant="60" id="Xu2-w3-Uw9"/>
+                            <constraint firstItem="hai-af-ZAI" firstAttribute="leading" secondItem="ef6-8N-QSR" secondAttribute="leadingMargin" id="fgS-G7-vsz"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="ScoreLabel" destination="qdt-6s-jMM" id="Zbq-A1-PGn"/>
+                        <outlet property="StartButton" destination="F6T-Hd-kb3" id="hO1-L9-wxy"/>
+                        <outlet property="TimerLabel" destination="q5A-FR-LYP" id="CGl-TP-H2x"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tiU-3E-gek" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-370" y="1294"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="A27-fe-EjX"/>
+    </inferredMetricsTieBreakers>
+</document>
